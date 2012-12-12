@@ -25,6 +25,7 @@
 		43C91D1D11EB963600F31FAE /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43C91D1C11EB963600F31FAE /* MainWindow-iPad.xib */; };
 		43D1DEF011D5CDD200550D75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D1DEEF11D5CDD200550D75 /* SystemConfiguration.framework */; };
 		43EF406E11D3FFF800B1F700 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EF406D11D3FFF800B1F700 /* Security.framework */; };
+		533ECC81167892F300A4B56F /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFCD1160E123C0086B98A /* libReachability.a */; };
 		7A0F91D5156BA2A0009CB40A /* SHKCustomFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B111DBE3B9004A1712 /* SHKCustomFormFieldCell.m */; };
 		7A0F91D6156BA2A0009CB40A /* SHKCustomFormControllerLargeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2BD53153431390042EB86 /* SHKCustomFormControllerLargeTextField.m */; };
 		7A0F91D9156BA2A0009CB40A /* SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A711DBE3B9004A1712 /* SHK.m */; };
@@ -835,6 +836,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533ECC81167892F300A4B56F /* libReachability.a in Frameworks */,
 				7AC28F0B165A21C2006D7441 /* libCopy.a in Frameworks */,
 				7AC28F0E165A21C2006D7441 /* libEmail.a in Frameworks */,
 				7AC28F11165A21C2006D7441 /* libFacebook.a in Frameworks */,
